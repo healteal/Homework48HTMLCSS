@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+.first__part {
+    font-size: x-large;
+}
+.second__part {
+    font-size: x-large; 
+    background-color: black;
+    color: white;
+}
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+div.page {
+    height: 800px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    
+}
+header {
+    height: 20%;
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    height: 60%;
+    width: calc(20% - 2px);
+    border: 1px solid black;
+    background-color: green;
+    float: left;
+}
+section {
+    background-color: orange;
+    height: 60%;
+    width: calc(60% - 2px);
+    border: 1px solid black;
+    float: left;
+}
+aside {
+    height: 60%;
+    width: calc(20% - 2px);
+    border: 1px solid black;
+    background-color: lightskyblue;
+    float: left;
+}
+footer {
+    height: 20%;
+    border: 1px solid black;
+    background-color: blue;
+    clear: both;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.third {
+    text-align: center;
+    color: white;
+    width: 60%;
+    height: 100px;
+}
+.red {
+    background-color: red;
+    border: 5px grey solid;
+}
+.green {
+    background-color: green;
+    border: 5px grey solid;
+}
+.blue {
+    background-color: blue;
+    border: 5px grey solid;
+}
+.third td {
+    width: 33%;
+}
